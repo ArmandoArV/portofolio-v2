@@ -1,6 +1,19 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --customGradient: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
